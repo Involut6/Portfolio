@@ -68,7 +68,7 @@
 </template>
 
 <script setup>
-import { ExternalLink, Github, Globe, Brain, ShoppingCart, MessageSquare } from 'lucide-vue-next'
+import { ExternalLink, Github, Globe, Brain, ShoppingCart, MessageSquare, Plus } from 'lucide-vue-next'
 
 const projects = [
   {
@@ -94,6 +94,14 @@ const projects = [
     liveUrl: "http://dfatv.com",
     githubUrl: "#",
     icon: MessageSquare
+  },
+  {
+    title: "EnvaAccord",
+    description: "A dashboard for managing medical tests and appointment.",
+    technologies: ["Vue.js", "TailwindCSS", "TypeScript"],
+    liveUrl: "http://envaccord.netlify.app",
+    githubUrl: "#",
+    icon: Plus
   }
 ]
 </script>
