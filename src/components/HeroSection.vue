@@ -29,7 +29,7 @@
         
         <p class="text-lg text-gray-500 dark:text-gray-400 mb-8 max-w-2xl mx-auto animate-slide-up" style="animation-delay: 0.4s;">
           Passionate about creating innovative web solutions with modern technologies. 
-          Specialized in React, Vue.js, Node.js, and cloud technologies.
+          Specialized in React, Vue.js, and cloud technologies.
         </p>
         
         <!-- CTA Buttons -->
