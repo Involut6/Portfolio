@@ -16,13 +16,13 @@
           <div class="prose prose-lg dark:prose-invert">
             <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
               I'm a dedicated Frontend Developer with expertise in building scalable web applications 
-              using modern technologies. With a strong background in both frontend, development, 
+              using modern technologies. With a strong background in frontend development, 
               I enjoy creating solutions that make a real impact.
             </p>
             
             <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
               My journey in software development has led me to work with various technologies including 
-              React, Vue.js, Node.js, Python, and styling frameworks. I'm passionate about writing clean, 
+              React, Vue.js, and styling frameworks. I'm passionate about writing clean, 
               efficient code and staying up-to-date with the latest industry trends.
             </p>
           </div>
