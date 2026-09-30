@@ -31,7 +31,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { watchEffect } from 'vue'
 import { useLocalStorage } from '@vueuse/core'
 import Navigation from './components/Navigation.vue'
 import HeroSection from './components/HeroSection.vue'
@@ -42,7 +42,8 @@ import ProjectsSection from './components/ProjectsSection.vue'
 import ContactSection from './components/ContactSection.vue'
 import Footer from './components/Footer.vue'
 
-const isDark = useLocalStorage('theme-dark', false)
+const prefersDark = window.matchMedia?.('(prefers-color-scheme: dark)').matches ?? false
+const isDark = useLocalStorage('theme-dark', prefersDark)
 
 const toggleTheme = () => {
   isDark.value = !isDark.value
@@ -55,10 +56,7 @@ const scrollToSection = (sectionId) => {
   }
 }
 
-onMounted(() => {
-  // Apply theme on mount
-  if (isDark.value) {
-    document.documentElement.classList.add('dark')
-  }
+watchEffect(() => {
+  document.documentElement.classList.toggle('dark', isDark.value)
 })
 </script>

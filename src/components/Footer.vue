@@ -6,8 +6,8 @@
         <div>
           <h3 class="text-2xl font-bold text-gradient mb-4">Abdulqoyum Aliyu</h3>
           <p class="text-gray-400 mb-4">
-            Frontend Developer passionate about creating innovative web solutions 
-            with modern technologies.
+            Full Stack Engineer building scalable web platforms 
+            with NestJS, Vue.js, React, and TypeScript.
           </p>
           <div class="flex space-x-4">
             <a 
