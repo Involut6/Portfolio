@@ -109,28 +109,10 @@
 import { ref, computed } from 'vue'
 import {
   ExternalLink, Github, Globe, ShoppingCart, Tv, HeartPulse, BookOpen,
-  Activity, Landmark, NotebookPen, Bomb, Brain, Dices, Utensils, BarChart3, Newspaper, Layers
+  NotebookPen, Bomb, Brain, Dices, Utensils, BarChart3, Newspaper, Layers
 } from 'lucide-vue-next'
 
 const projects = [
-  {
-    title: "TeamPulse",
-    description: "A web platform for teams, built and deployed as part of a production product.",
-    technologies: ["Vue.js", "TailwindCSS", "TypeScript"],
-    category: "Vue",
-    featured: true,
-    liveUrl: "https://dev.myteampulse.ai",
-    icon: Activity
-  },
-  {
-    title: "CGAS",
-    description: "A web application built for Finclusion.",
-    technologies: ["Vue.js", "TailwindCSS", "TypeScript"],
-    category: "Vue",
-    featured: true,
-    liveUrl: "https://dev.cgas.finclusion.ai",
-    icon: Landmark
-  },
   {
     title: "DFA TV",
     description: "A streaming platform for movies and shows.",
