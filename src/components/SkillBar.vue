@@ -1,5 +1,5 @@
 <template>
-  <div class="skill-bar">
+  <div ref="skillBar" class="skill-bar">
     <div class="flex justify-between items-center mb-2">
       <span class="text-sm font-medium text-gray-700 dark:text-gray-300">{{ name }}</span>
       <span class="text-sm text-gray-500 dark:text-gray-400">{{ level }}%</span>
@@ -35,7 +35,7 @@ onMounted(() => {
         stop()
       }
     },
-    { threshold: 0.5 }
+    { threshold: 0.2 }
   )
 })
 </script>
