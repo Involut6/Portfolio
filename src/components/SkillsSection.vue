@@ -27,7 +27,42 @@
             <SkillBar name="HTML/CSS" level="95" />
             <SkillBar name="Tailwind CSS" level="90" />
           </div>
-        </div>      
+        </div>
+
+        <!-- Backend -->
+        <div class="card p-8">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-primary-100 dark:bg-primary-900 rounded-lg flex items-center justify-center mr-4">
+              <Server class="w-6 h-6 text-primary-600" />
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 dark:text-white">Backend</h3>
+          </div>
+          <div class="space-y-4">
+            <SkillBar name="Node.js" level="85" />
+            <SkillBar name="NestJS" level="85" />
+            <SkillBar name="REST API Design" level="90" />
+            <SkillBar name="PostgreSQL" level="80" />
+            <SkillBar name="Prisma ORM" level="85" />
+            <SkillBar name="Authentication & Authorization" level="80" />
+          </div>
+        </div>
+
+        <!-- Cloud & DevOps -->
+        <div class="card p-8 md:col-span-2">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-primary-100 dark:bg-primary-900 rounded-lg flex items-center justify-center mr-4">
+              <Cloud class="w-6 h-6 text-primary-600" />
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 dark:text-white">Cloud & DevOps</h3>
+          </div>
+          <div class="grid md:grid-cols-2 gap-x-8 gap-y-4">
+            <SkillBar name="AWS" level="70" />
+            <SkillBar name="Git & Version Control" level="90" />
+            <SkillBar name="CI/CD" level="75" />
+          </div>
+        </div>
+      </div>
+
       <!-- Additional Skills -->
       <div class="mt-16">
         <h3 class="text-2xl font-bold text-center text-gray-900 dark:text-white mb-8">
@@ -43,17 +78,16 @@
           </span>
         </div>
       </div>
-      </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import { Monitor, Server, Database } from 'lucide-vue-next'
+import { Monitor, Server, Cloud } from 'lucide-vue-next'
 import SkillBar from './SkillBar.vue'
 
 const additionalSkills = [
-  'Redux', 'Next.js', 'Tailwind', 'Vite',
-  'Sass/SCSS', 'Bootstrap', 'Material-UI', 'CI/CD', 'Agile/Scrum'
+  'Next.js', 'Redux', 'Zustand', 'Vite', 'Python', 'GIS & Spatial Analytics',
+  'AI/LLM Integration', 'Claude Code', 'Bootstrap', 'Sass/SCSS', 'Agile/Scrum'
 ]
 </script>
