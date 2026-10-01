@@ -6,7 +6,7 @@
       <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-primary-300 dark:bg-primary-800 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-float" style="animation-delay: 2s;"></div>
     </div>
     
-    <div class="container-max relative z-10">
+    <div class="container-max relative z-10 px-4 pt-28 pb-28">
       <div class="text-center animate-fade-in">
         <!-- Profile Image -->
         <div class="mb-8">
@@ -24,12 +24,12 @@
         </h1>
         
         <p class="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-4 animate-slide-up" style="animation-delay: 0.2s;">
-          Frontend Developer & Software Engineer
+          Full Stack Engineer
         </p>
         
         <p class="text-lg text-gray-500 dark:text-gray-400 mb-8 max-w-2xl mx-auto animate-slide-up" style="animation-delay: 0.4s;">
-          Passionate about creating innovative web solutions with modern technologies. 
-          Specialized in React, Vue.js, and cloud technologies.
+          I build scalable backends, APIs, and polished web applications, including AI-powered
+          workflows. Skilled in NestJS, PostgreSQL, React, Vue.js, and TypeScript.
         </p>
         
         <!-- CTA Buttons -->

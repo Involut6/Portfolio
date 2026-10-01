@@ -6,7 +6,7 @@
           About <span class="text-gradient">Me</span>
         </h2>
         <p class="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-          Passionate developer with a strong foundation in modern web technologies
+          Full Stack Engineer building scalable platforms end to end
         </p>
       </div>
       
@@ -15,15 +15,14 @@
         <div class="space-y-6">
           <div class="prose prose-lg dark:prose-invert">
             <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
-              I'm a dedicated Frontend Developer with expertise in building scalable web applications 
-              using modern technologies. With a strong background in frontend development, 
-              I enjoy creating solutions that make a real impact.
+              I'm a Full Stack Engineer with 4+ years of experience architecting scalable backend services, 
+              APIs, and web applications end to end. At Finclusion AI I lead development of an agriculture 
+              and land intelligence platform built on GIS mapping, and an AI-powered project management platform.
             </p>
             
             <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
-              My journey in software development has led me to work with various technologies including 
-              React, Vue.js, and styling frameworks. I'm passionate about writing clean, 
-              efficient code and staying up-to-date with the latest industry trends.
+              I work across NestJS, PostgreSQL, Prisma, React, Vue.js, and TypeScript, and build AI-driven 
+              automations in production. Claude Code is part of my daily engineering workflow.
             </p>
           </div>
           
@@ -34,15 +33,15 @@
               <div class="text-gray-600 dark:text-gray-300">Years Experience</div>
             </div>
             <div class="text-center p-6 card">
-              <div class="text-3xl font-bold text-primary-600 mb-2">10+</div>
-              <div class="text-gray-600 dark:text-gray-300">Projects Completed</div>
+              <div class="text-3xl font-bold text-primary-600 mb-2">30+</div>
+              <div class="text-gray-600 dark:text-gray-300">Features Shipped</div>
             </div>
           </div>
           
           <!-- Download CV Button -->
           <div class="pt-6">
             <a 
-              href="/Abdulqoyum Aliyu's CV.pdf" 
+              href="/Abdulqoyum_Aliyu_CV.pdf" 
               download
               class="btn-primary inline-flex items-center gap-2"
             >
